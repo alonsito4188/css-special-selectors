@@ -1,0 +1,8 @@
+li {
+    background-color: black;
+}
+
+li:hover {
+    background-color: black;
+    font-style: italic;
+}

@@ -1,0 +1,27 @@
+li {
+    background-color: rgb(205, 50, 73);
+}
+
+li:hover {
+    background-color: rgb(205, 117, 50);
+    font-style: italic;
+}
+
+li:active {
+    background-color: rgb(0, 0, 0);
+    font-size: 30px;
+}
+
+li::before {
+    content: "😩";
+}
+
+li:hover::after {
+    content: "pick me!! pick me!!!"
+    margin-left: 8px;
+    font-weight: bold;
+}
+
+li:active::after {
+    content: 🐵;
+}
