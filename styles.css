@@ -17,7 +17,7 @@ li::before {
 }
 
 li:hover::after {
-    content: "pick me!! pick me!!!"
+    content: "pick me!! pick me!!!";
     margin-left: 8px;
     font-weight: bold;
 }
